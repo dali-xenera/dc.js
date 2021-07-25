@@ -60,7 +60,7 @@ Promise.all([d3.csv("morley.csv"), d3.csv("morley2.csv")]).then(function(results
                 .group(grp1, "Dots")
                 .dashStyle([2,2])
             ])
-        .brushOn(false)
+        .brushOn(true)
         .render();
 
 });
